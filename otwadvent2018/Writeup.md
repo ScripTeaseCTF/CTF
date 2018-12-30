@@ -23,39 +23,23 @@ AOTW{D0ra_th3_haxxpl0rer}
 
 go to /static/js/app.js 
 
-`
-...
-    if(lockedcount != $scope.lockedCount) {
-	       
-           if($scope.lockedCount != -1) {
-	        
-            if(localStorage.getItem("gfx") != 2) {
-		    
-            var audio = new Audio('/static/audio/santabells.mp3');
-		    
-            audio.play();
-		    
-            $scope.showsanta = true;
-			
-            $("#santa").html(atob("PHA+QU9UV3tKaW5nbGVfQWxsX1RoZV9XYXkhISExfTwvcD4="));
-		    
-            console.log("GFX enabled");
-		
-        } else {
-		    
-            console.log("GFX disabled");
-		
-        }
-		
-        console.log("Detected new unlocked challenges");
-	    
-        }
-	  
-      $scope.lockedCount = lockedcount;
-    
-    }
-...
-`
+
+	...
+	if(lockedcount != $scope.lockedCount) {
+	  if($scope.lockedCount != -1) {
+	        if(localStorage.getItem("gfx") != 2) {
+		    var audio = new Audio('/static/audio/santabells.mp3');
+		    audio.play();
+		    $scope.showsanta = true;
+			$("#santa").html(atob("PHA+QU9UV3tKaW5nbGVfQWxsX1RoZV9XYXkhISExfTwvcD4="));
+		    console.log("GFX enabled");
+		} else {
+		    console.log("GFX disabled");
+		}
+		console.log("Detected new unlocked challenges");
+	  }
+	  $scope.lockedCount = lockedcount;
+	...
 
 base64 decode "PHA+QU9UV3tKaW5nbGVfQWxsX1RoZV9XYXkhISExfTwvcD4"
 
