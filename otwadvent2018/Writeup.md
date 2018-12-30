@@ -1,6 +1,15 @@
 # otwadvent2018
 
 
+Title                         | Category     | Points   | Flag
+----------------------------- | ------------ | -------  | ---------------------------------------
+EasterEgg1		      | web	     |50	|AOTW{D0ra_th3_haxxpl0rer}
+EasterEgg2		      |web	     |50	|AOTW{Jingle_All_The_Way!!!1}
+Lostpresent		      |pwn	     |200	|AOTW{SanT4zLiT7L3xm4smag1c}
+
+
+
+
 
 ## EasterEgg1 (web/bonus 50)
 
