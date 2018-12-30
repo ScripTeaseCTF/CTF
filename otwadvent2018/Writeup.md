@@ -2,7 +2,7 @@
 
 
 
-### EasterEgg1
+## EasterEgg1 (web/bonus 50)
 
 go to robots.txt
 
@@ -14,12 +14,13 @@ then go to static/__s3cret.txt and scroll to bottom of the page
     
 ![Image 1](https://github.com/ScripTeaseCTF/CTF/blob/master/otwadvent2018/images/3.PNG)
 
-flag worth 50 points
+
+flag is therefore
 
 AOTW{D0ra_th3_haxxpl0rer}
 
 
-### EasterEgg2 
+## EasterEgg2 (web/bonus 50)
 
 go to /static/js/app.js 
 
@@ -46,3 +47,22 @@ base64 decode "PHA+QU9UV3tKaW5nbGVfQWxsX1RoZV9XYXkhISExfTwvcD4"
 and you obtaine the flag worth 50 points 
 
 AOTW{Jingle_All_The_Way!!!1}
+
+## Lostpresent (pwn/misc 200)
+
+ssh to ssh -p 1211 shelper@3.81.191.176
+
+the password is >>> shelper
+
+![Image 1](https://github.com/ScripTeaseCTF/CTF/blob/master/otwadvent2018/images/4.PNG)
+
+lets enumerate all binaries having SUID permission.
+
+![Image 1](https://github.com/ScripTeaseCTF/CTF/blob/master/otwadvent2018/images/6.PNG)
+
+we can use sudo, good. and by the looks of it /home/santa looks very promising. now we have very few sudo allowed commands. however, we can obtain the flag using the find command as seen below 
+
+
+![Image 1](https://github.com/ScripTeaseCTF/CTF/blob/master/otwadvent2018/images/5.PNG)
+
+AOTW{SanT4zLiT7L3xm4smag1c}
