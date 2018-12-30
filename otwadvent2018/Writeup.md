@@ -1,8 +1,18 @@
-# otwadvent2018
+#otwadvent2018
 
 
+
+###EasterEgg1
+
+go to robots.txt
 
 ![Image 1](https://github.com/ScripTeaseCTF/CTF/blob/master/otwadvent2018/images/1.PNG)
 
-EasterEgg1 
+then to static/__s3cret.txt
+![Image 1](https://github.com/ScripTeaseCTF/CTF/blob/master/otwadvent2018/images/2.PNG)
+
+scroll to bottom of the page 
+![Image 1](https://github.com/ScripTeaseCTF/CTF/blob/master/otwadvent2018/images/3.PNG)
+
+flag worth 50 points
 AOTW{D0ra_th3_haxxpl0rer}
