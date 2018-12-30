@@ -2,7 +2,7 @@
 
 
 
-[Image 1](https://github.com/ScripTeaseCTF/CTF/otwadvent2018/3.PNG)
+![Image 1](https://github.com/ScripTeaseCTF/CTF/otwadvent2018/3.PNG)
 
 EasterEgg1 
 AOTW{D0ra_th3_haxxpl0rer}
