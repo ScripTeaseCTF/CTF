@@ -2,8 +2,7 @@
 
 
 
-
-![Image 1](https://octodex.github.com/CTF/otwadvent2018/1.PNG)
+[Image 1](https://octodex.github.com/CTF/otwadvent2018/1.PNG)
 
 EasterEgg1 
 AOTW{D0ra_th3_haxxpl0rer}
