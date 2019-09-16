@@ -21,7 +21,7 @@ Really moving 					|Stego		 |100		|key{catch_the_dynamic_flag_is_quite_simple}
 
 F12 that thing
 
-![Image 1](https://github.com/ScripTeaseCTF/CTF/tree/master/WhaleCTF/images/1.PNG)
+![Image 1](https://github.com/ScripTeaseCTF/CTF/tree/master/WhaleCTF/images/findme.PNG)
 flag:{This_is_s0_simpl3}
 
 
