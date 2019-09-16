@@ -1,4 +1,4 @@
-# otwadvent2018
+# BlueWhale CTF
 
 
 Title                         	| Category     | Points   | Flag
