@@ -19,7 +19,7 @@ Really moving 					|Stego		 |100		|key{catch_the_dynamic_flag_is_quite_simple}
 Blurred picture 				|Stego		 |100		|flag{At10ISCC421ZLAPL}
 Error Compression				|Stego 		 |150		|SCTF{(121.518549,25.040854)}
 Prom partner 					|Stego		 |200		|flag{f524415e198cbc8983ac0bed3d0cbcef}
-Cross-eyed eyes 				|Stego		 |200		|
+Cross-eyed eyes 				|Stego		 |200		|ISG{E4sY_StEg4n0gR4pHy}
 
 ![](https://github.com/ScripTeaseCTF/CTF/blob/master/WhaleCTF/images/allsteganosolve.PNG)  
 
