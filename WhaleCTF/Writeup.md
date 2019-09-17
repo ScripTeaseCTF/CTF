@@ -21,36 +21,39 @@ Error Compression				|Stego 		 |150		|SCTF{(121.518549,25.040854)}
 Prom partner 					|Stego		 |200		|flag{f524415e198cbc8983ac0bed3d0cbcef}
 Cross-eyed eyes 				|Stego		 |200		|
 
-![Image 1](https://github.com/ScripTeaseCTF/CTF/blob/master/WhaleCTF/images/allsteganosolve.PNG)
+![](https://github.com/ScripTeaseCTF/CTF/blob/master/WhaleCTF/images/allsteganosolve.PNG)  
 
 ##  Find me (web/ 50)
 F12 that thing
-![Image 2](https://github.com/ScripTeaseCTF/CTF/blob/master/WhaleCTF/images/findme.PNG)
+![](https://github.com/ScripTeaseCTF/CTF/blob/master/WhaleCTF/images/findme.PNG)  
 flag:{This_is_s0_simpl3}
 
 ## Http (web/ 50)
-![Image 3](https://github.com/ScripTeaseCTF/CTF/blob/master/WhaleCTF/images/http.png)
-flag:{Y0u_ar3_s0_Car3ful}
+![](https://github.com/ScripTeaseCTF/CTF/blob/master/WhaleCTF/images/http.png)  
+flag:{Y0u_ar3_s0_Car3ful}  
 
 ## Find (Stego/ 50)
-flag{hctf_3xF$235#\x5e3}
+flag{hctf_3xF$235#\x5e3}  
+![](https://github.com/ScripTeaseCTF/CTF/blob/master/WhaleCTF/images/find.PNG)  
 
 ## I was eaten by me (Stego/ 50)
-strings whale1.jpg
-binwalk -e whale1.jpg
-cd _whale1.jpg.extracted
-cat flag.txt
+strings whale1.jpg  
+binwalk -e whale1.jpg    
+![](https://github.com/ScripTeaseCTF/CTF/blob/master/WhaleCTF/images/iwaseatenbyme.png)    
+cd _whale1.jpg.extracted  
+cat flag.txt  
 flag{WelcomeT3WhaleCTF}
 
 
-## subspecies (Stego/ 50)
+## subspecies (Stego/ 50)  
+![](https://github.com/ScripTeaseCTF/CTF/blob/master/WhaleCTF/images/subspecies.png)   
 flag{firsttry}
 
 ## Rainy Day (Stego/ 50)
 convert Misc01.jpg out.png 
-open out-2.png and voila
+open out-2.png and voila  
+![](https://github.com/ScripTeaseCTF/CTF/blob/master/WhaleCTF/images/rainy.PNG)  
 GUETCTF{Y0u_sEE_m3}
-
 
 ## what is this (Stego/ 100)
 strings rabbit.jpg 
@@ -64,35 +67,36 @@ analyze frame browser > flag is located on frame 2
 flag{youfindmeWHALE}
 
 ## Angry ping (Stego/ 100)
-I used 29a.ch and changed the color component to reveale a QR code 
+I used 29a.ch and changed the color component to reveale a QR code    
+![](https://github.com/ScripTeaseCTF/CTF/blob/master/WhaleCTF/images/angrypig.PNG)   
 scan the QR code w/ wechat 
 flag{AppLeU0}
 
 ## Negative film	(Stego/ 100)
-lets see if we can detect an lsb with zsteg, we can and it gives us the flag nice
-![Image 4](https://github.com/ScripTeaseCTF/CTF/images/negativefilm.png)
+lets see if we can detect an lsb with zsteg, we can and it gives us the flag nice  
+![](https://github.com/ScripTeaseCTF/CTF/blob/master/WhaleCTF/images/negativefilm.png)  
 key_is_SimCTF{LSB_yinxie}
 
 ## IHDR (Stego/ 100)
-According to the prompt IHDR, it is possible to modify the height, throw in the winhex modified height:
-![Image 5](https://github.com/ScripTeaseCTF/CTF/images/lowestkiss1.png)
-![Image 6](https://github.com/ScripTeaseCTF/CTF/images/lowestkiss2.png)
-![Image 7](https://github.com/ScripTeaseCTF/CTF/images/lowestkiss3.png)
+According to the prompt IHDR, it is possible to modify the height, throw in the winhex modified height:  
+![](https://github.com/ScripTeaseCTF/CTF/blob/master/WhaleCTF/images/lowestkiss1.png)  
+![](https://github.com/ScripTeaseCTF/CTF/blob/master/WhaleCTF/images/lowestkiss2.png)  
+![](https://github.com/ScripTeaseCTF/CTF/blob/master/WhaleCTF/images/lowestkiss3.png)  
 FLAG{ihDR_ALSO_FUN}
 
 ## Really moving (Stego/ 100)
-Open with winhex and find the missing file header, add the file header
-![Image 8](https://github.com/ScripTeaseCTF/CTF/images/reallymov1.png)
+Open with winhex and find the missing file header, add the file header  
+![](https://github.com/ScripTeaseCTF/CTF/blob/master/WhaleCTF/images/reallymov1.png)  
 then change to the GIF image, use steg to view directly.
-Because some characters may be a bit unclear, you must carefully check
-![Image 9](https://github.com/ScripTeaseCTF/CTF/images/reallymov2.png)
+Because some characters may be a bit unclear, you must carefully check  
+![](https://github.com/ScripTeaseCTF/CTF/blob/master/WhaleCTF/images/reallymov2.png)  
 get the string: Y2F0Y2hfdGhlX2R5bmFtaWNfZmxhZ19pc19xdWl0ZV9zaW1wbGU=
 decode it and you get the flag 
 key{catch_the_dynamic_flag_is_quite_simple}
 
 ## Blurred Picture (Stego/ 100)
-run it through steghide and see this 
-![Image 10](https://github.com/ScripTeaseCTF/CTF/images/blurred1.PNG)
+run it through steghide and see this  
+![](https://github.com/ScripTeaseCTF/CTF/blob/master/WhaleCTF/images/blurred1.PNG)  
 At10ISCC4_1Z__P_ thats not the flag we're missing something
 ```python
 #coding:utf-8
@@ -116,21 +120,21 @@ and voila the flag At10ISCC421ZLAPL
 flag{At10ISCC421ZLAPL}
 
 ## Lowest kiss (Stego/ 150)
-![Image 11](https://github.com/ScripTeaseCTF/CTF/images/lowestkiss1.png)
+![](https://github.com/ScripTeaseCTF/CTF/blob/master/WhaleCTF/images/lowestkiss1.png)   
 I want to turn the picture into png, then go to stegsolve, the QR code comes out so im shit lazy use the drawing to change the png format
-![Image 12](https://github.com/ScripTeaseCTF/CTF/images/lowestkiss2.png)
+![](https://github.com/ScripTeaseCTF/CTF/blob/master/WhaleCTF/images/lowestkiss2.png)   
 scan and you get the flag
 flag{i love u}
 
 
 ## Error compression (Stego/ 150)
-open in tweakpng 
-![Image 13](https://github.com/ScripTeaseCTF/CTF/images/errorcompress1.PNG)
+open in tweakpng   
+![](https://github.com/ScripTeaseCTF/CTF/blob/master/WhaleCTF/images/errorcompress1.PNG)  
 seems to be a problem, the front is 65524, the latter is a 45027, and there is a 138 behind?
 Why is this 138 not placed in the underfilled 45027? There are problems with these 138 data!
-use hex edditor to take the wav 
-![Image 14](https://github.com/ScripTeaseCTF/CTF/images/errorcompress2.PNG)
-take the 138 values ​​in front of the CRC value
+use hex edditor to take the wav   
+![](https://github.com/ScripTeaseCTF/CTF/blob/master/WhaleCTF/images/errorcompress2.PNG)  
+take the 138 values in front of the CRC value
 using the zlib module
 ```python 
 import zlib
@@ -166,15 +170,15 @@ for i in range(0, x):
 		k += 1
 
 im.save("flag.jpg")   #im.save('flag.jpg')
-```
-![Image 15](https://github.com/ScripTeaseCTF/CTF/images/errorcompress3.PNG)
+```   
+![](https://github.com/ScripTeaseCTF/CTF/blob/master/WhaleCTF/images/errorcompress3.PNG)   
 scan and you get the flag 
 SCTF{(121.518549,25.040854)}
 
 ## Prom partner (Stego/ 200)
-Open with winhex and find a lot of ABCD
-![Image 16](https://github.com/ScripTeaseCTF/CTF/blob/master/WhaleCTF/images/prom1.PNG)
-We are opening with exiftool
+Open with winhex and find a lot of ABCD   
+![](https://github.com/ScripTeaseCTF/CTF/blob/master/WhaleCTF/images/prom1.PNG)    
+We are opening with exiftool  
 We see a conspicuous green test in the picture (in combination with the title description) guess A –> upper B –> lower C –> left D –> right
 After testing, it is actually C –> right D –> left The next step is to write the script to first determine the green coordinates 
 (find the start coordinate and the end coordinate to find the middle)
@@ -213,15 +217,15 @@ for new_place in comment:
 sys.stdout.write( "".join(string) )
 image.close()
 ```
-![Image 17](https://github.com/ScripTeaseCTF/CTF/blob/master/WhaleCTF/images/prom2.PNG)
+![](https://github.com/ScripTeaseCTF/CTF/blob/master/WhaleCTF/images/prom2.PNG)  
 ignore the error 
 hash it and lowercase it and you got your flag
 flag{f524415e198cbc8983ac0bed3d0cbcef}
 
 ## Cross-eyed eyes (Stego/ 200)
-![Image 18](https://github.com/ScripTeaseCTF/CTF/blob/master/WhaleCTF/images/final1.PNG)
+![](https://github.com/ScripTeaseCTF/CTF/blob/master/WhaleCTF/images/final1.PNG)  
 okay lets grab it dd if=final.png bs=1 skip=1922524 of=img.png
 open with stegsolve so you know - java -jar stegsolve.jar 
-![Image 19](https://github.com/ScripTeaseCTF/CTF/blob/master/WhaleCTF/images/final2.PNG)
+![](https://github.com/ScripTeaseCTF/CTF/blob/master/WhaleCTF/images/final2.PNG)  
 ISG{E4sY_StEg4n0gR4pHy}
 
